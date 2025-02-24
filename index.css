@@ -1,0 +1,96 @@
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.bingo-board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid red;
+  padding: 10px;
+}
+
+.bingo-cell {
+  background: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  min-height: 100px;
+  border: 1px solid blue;
+}
+
+.bingo-cell.completed {
+  background: #4caf50;
+  color: white;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.profile-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-info {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.completed-tasks {
+  margin-top: 20px;
+}
+
+.completed-tasks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.completed-tasks li {
+  background: #d4edda;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
